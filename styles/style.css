@@ -106,3 +106,31 @@ body {
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 48px;
+        padding-top: 15vh;
+    }
+
+    .role {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 20px;
+        width: 100px; /* diminuir os logos também */
+    }
+
+    .button-see-more {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        min-height: 50px;
+    }
+
+    .container {
+        padding: 0 20px; /* dar um respiro nas laterais */
+    }
+}
