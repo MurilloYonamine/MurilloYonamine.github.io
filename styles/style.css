@@ -28,6 +28,7 @@ body {
     color: var(--primary-color);
     font-size: 96px;
     font-weight: bold;
+    text-align: center;
 
     padding-top: 25vh;
 }
@@ -40,9 +41,11 @@ body {
 
 .logo-container {
     padding-top: 4vh;
+    text-align: center;
+
 }
 
-.logo-size {
+.logo {
     justify-content: space-around;
     padding: 50px;
     cursor: pointer;
@@ -51,7 +54,7 @@ body {
     transition: filter 0.2s ease;
 
 }
-.logo-size:hover {
+.logo:hover {
     filter: brightness(0) saturate(100%) invert(17%) sepia(29%) saturate(720%) hue-rotate(316deg) brightness(92%) contrast(86%);
 }
 
