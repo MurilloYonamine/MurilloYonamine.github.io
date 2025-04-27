@@ -134,3 +134,30 @@ body {
         padding: 0 20px; /* dar um respiro nas laterais */
     }
 }
+
+@media (max-width: 300px) {
+    .name {
+        font-size: 32px;
+        padding-top: 10vh;
+    }
+
+    .role {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 80px;
+        padding: 10px;
+    }
+
+    .button-see-more {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 45px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+}
